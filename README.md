@@ -24,7 +24,7 @@ or more simply, once compiled, from the current directory:
 <pre>
 ./monitor monitor.conf servers.conf monitor.html
 </pre>
-Note that all target servers should have their *authorized-keys* file up to date with the monitoring system's public key.
+Note that all target servers should have their **authorized-keys** file up to date with the monitoring system's public key.
 
 <b>How to extend Monitor:</b><br><br>
 To increase the number of commands to run, first increase the default command count in monitor.rkt through the <pre>*app-config-section-length*</pre> constant, then add a <pre>(get-config-item-or-die app-config "my-new-command-title=")</pre> line to the commands list definition in the Main section.
