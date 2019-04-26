@@ -19,7 +19,7 @@
 (define *app-config-error* 	 	"Bad program configuration file syntax.")
 (define *items-config-error* 	 	"Bad items configuration file syntax.")
 (define *email-alert-triggers*   	(list "100%" "CPU Usage: 1."))
-(define *default-email-from* 	 	"monitor@nodixia.com")
+(define *default-email-from* 	 	"monitor@mydomain.com")
 (define *default-email-subject*  	"Nodixia Monitor Alert")
 (define *default-email-template* 	"monitor.html")
 
