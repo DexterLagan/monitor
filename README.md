@@ -46,12 +46,12 @@ hostname=some-server1.some-domain.com
 username=some-user
 
 [server #2]
-servername=My Server #1
+servername=My Server #2
 hostname=some-server2.some-domain.com
 username=some-user
 
 [server #3]
-servername=My Server #1
+servername=My Server #3
 hostname=some-server3.some-domain.com
 username=some-user
 </pre>
