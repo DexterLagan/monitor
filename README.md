@@ -2,7 +2,7 @@
 Monitor is a multi-threaded server monitor with built-in notification system.
 
 <b>How it works:</b><br><br>
-Monitor runs any number of commands on remote servers through SSH tunnels and displays results on the screen. If CPU usage on any of the specified systems goes above 1, or if RAM or disk usage goes to 100%, Monitor emails the specified distribution list an alert with the system statistics. All servers are contacted in parallel and all commands are run in parallel on each server. Monitor supports an unlimited number of servers and commands and is easily extensible through simple configuration files.
+Monitor runs any number of commands on remote servers through SSH tunnels and displays results on the screen. If CPU usage on any of the specified systems goes above 1, or if RAM or disk usage goes to 100%, Monitor emails the specified distribution list an alert with the system statistics. All servers are contacted in parallel and all commands are run in parallel on each server. Notification e-mails are also sent in parallel. Monitor supports an unlimited number of servers and commands and is easily extensible through simple configuration files.
 
 <b>How to install:</b>
 <pre>
@@ -24,6 +24,9 @@ or more simply, once compiled, from the current directory:
 <pre>
 ./monitor monitor.conf servers.conf monitor.html
 </pre>
+
+<b>How to extend Monitor:</b><br><br>
+To increase the number of commands to run, first increase the default command count in monitor.rkt through the *app-config-section-length* constant, then add a '(get-config-item-or-die app-config "my-new-command-title=")' line to the commands list definition in the Main section.
 
 <b>Sample monitor configuration file:</b>
 <pre>
