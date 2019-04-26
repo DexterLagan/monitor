@@ -13,7 +13,7 @@ raco distribute release monitor
 cp monitor.conf servers.conf monitor.html ./release/bin
 </pre>
 
-<b>How it works:</b><br>
+<b>How it works:</b><br><br>
 Monitor launches any number of commands on remote servers through an SSH tunnel in parallel and displays results on the screen. If CPU usage on any of the specified systems goes above 1, or if RAM or disk usage goes to 100%, Monitor emails the specified distribution list an alert with the system statistics.
 
 <b>How to use:</b>
