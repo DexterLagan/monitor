@@ -89,5 +89,5 @@ All done.
 
 Best regards,
 
-Dexter Santucci
+Dexter Santucci<br>
 Ottawa, April 2019
