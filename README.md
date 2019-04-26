@@ -2,7 +2,6 @@
 Monitor is a multi-threaded server monitor with built-in notification system.
 
 <b>How to install:</b>
-from any empty folder:
 <pre>
 git clone https://github.com/DexterLagan/monitor
 </pre>
