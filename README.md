@@ -1,4 +1,4 @@
-# monitor
+# Monitor
 Monitor is a multi-threaded server monitor with built-in notification system.
 
 <b>How to install:</b>
