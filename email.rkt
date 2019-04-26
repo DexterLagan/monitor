@@ -27,8 +27,8 @@
 		       html-header)))
 ; unit testt
 (module+ test
-  (send-html-email "dexterlagan@gmail.com" 
-		   "notifier@dexterphoto.com" 
+  (send-html-email "********@gmail.com" 
+		   "notifier@mydomain.com" 
 		   "Test Email from Notifier" 
 		   "Hi there,\n  This is a test."))
 
