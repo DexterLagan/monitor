@@ -2,7 +2,7 @@
 Monitor is a multi-threaded server monitor with built-in notification system.
 
 <b>How it works:</b><br><br>
-Monitor launches any number of commands on remote servers through an SSH tunnel in parallel and displays results on the screen. If CPU usage on any of the specified systems goes above 1, or if RAM or disk usage goes to 100%, Monitor emails the specified distribution list an alert with the system statistics.
+Monitor launches any number of commands in parallel on remote servers through SSH tunnels and displays results on the screen. If CPU usage on any of the specified systems goes above 1, or if RAM or disk usage goes to 100%, Monitor emails the specified distribution list an alert with the system statistics. All servers are contacted in parallel and all commands are run in parallel on each server.
 
 <b>How to install:</b>
 <pre>
