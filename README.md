@@ -87,7 +87,6 @@ Top 3 RAM: mysqld 3.6 telegraf 0.3 apache2 0.2
 All done.
 </pre>
 
-Best regards,
-
+<br>
 Dexter Santucci<br>
 Ottawa, April 2019
