@@ -4,19 +4,19 @@ Monitor is a multi-threaded server monitor with built-in notification system.
 <b>How it works:</b><br><br>
 Monitor runs any number of commands on remote servers through SSH tunnels and displays results on the screen. If CPU usage on any of the specified systems goes above 1, or if RAM or disk usage goes to 100%, Monitor emails the specified distribution list an alert with the system statistics. All servers are contacted in parallel and all commands are run in parallel on each server. Notification e-mails are also sent in parallel. Monitor supports an unlimited number of servers and commands and is easily extensible through simple configuration files. To run Monitor continuously at fixed interval, add a call with full paths to your crontab.
 
-<b>How to install:</b>
+## Installation
 <pre>
 git clone https://github.com/DexterLagan/monitor
 </pre>
 
-<b>How to compile:</b>
+## Build Instructions
 <pre>
 raco exe monitor.rkt
 raco distribute release monitor
 cp monitor.conf servers.conf monitor.html ./release/bin
 </pre>
 
-<b>How to use:</b>
+## Usage
 <pre>
 racket monitor.rkt path/to/monitor-config-file.conf /path/to/servers-config-file.conf /path/to/html-email-template.html
 </pre>
