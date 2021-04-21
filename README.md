@@ -91,6 +91,6 @@ Top 3 RAM: mysqld 3.6 telegraf 0.3 apache2 0.2
 All done.
 </pre>
 
-<br>
-Dexter Santucci<br>
-Ottawa, April 2019
+## License
+
+Monitor is free software; see [LICENSE](https://github.com/DexterLagan/monitor/blob/main/LICENSE) for more details.
